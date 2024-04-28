@@ -26,7 +26,11 @@ idna==3.7
 multidict==6.0.5
     # via aiohttp
     # via yarl
+pillow==9.2.0
+    # via quote2image
 python-dotenv==1.0.1
+    # via heitanbot
+quote2image==0.0.5
     # via heitanbot
 yarl==1.9.4
     # via aiohttp
