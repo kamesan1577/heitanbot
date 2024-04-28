@@ -3,3 +3,6 @@ import os
 load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+IS_DEV = os.getenv('IS_DEV') == 'True'
+prefix = "/"
